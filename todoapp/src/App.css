@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@300&display=swap");
+/* 
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1266f1;
+  --text-color: black;
+}
+
+input,
+textarea {
+  font-family: "Barlow Condensed", sans-serif !important;
+  color: #1266f1 !important;
+}
+
+.text__font-family__custom {
+  font-family: "Barlow Condensed", sans-serif !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-color{
+  color: var(--text-color);
+}

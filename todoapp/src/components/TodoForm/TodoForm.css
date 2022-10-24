@@ -1,0 +1,5 @@
+.form-todo__title{
+    color: var(--primary-color) !important;
+    font-weight: bold;
+}
+

@@ -1,0 +1,37 @@
+.Home {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../background.jpg");
+}
+
+.home__navbar,
+.home__body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home__body__swapper {
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 5px;
+  background-image: linear-gradient(60deg, white, #f5efdf);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-height: calc(100vh - 60px);
+}
+
+.home__title {
+  text-align: center;
+  margin: 16px 0px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.notice__overall {
+  position: fixed;
+  bottom: 10px;
+  left: 1px;
+  z-index: 10;
+  transition: all 1s ease-in-out;
+}

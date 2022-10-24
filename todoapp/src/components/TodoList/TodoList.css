@@ -1,0 +1,39 @@
+.todo-list__swapper {
+  margin-left: 32px;
+  margin-right: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0px 32px;
+}
+
+.create___todo{
+  color: #13bf2a;
+  font-size: 2rem;
+  position: fixed;
+  top: 88px;
+  right: calc(10%);
+  z-index: 100;
+}
+
+.create__todo_icon{
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.create__todo_icon:hover{
+  transform: scale(1.2);
+}
+.loading{
+  margin-left: 50%;
+}
+
+
+.sort__todo__icon:hover{
+  opacity: 0.8;
+} 

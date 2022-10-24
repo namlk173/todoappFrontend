@@ -1,0 +1,14 @@
+.password__input__swapper{
+    position: relative;
+}
+.password__input__icon{
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.password__input__icon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

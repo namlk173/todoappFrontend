@@ -1,0 +1,65 @@
+.navbar__swapper {
+  z-index: 10;
+  width: 80%;
+  height: 60px;
+  background-image: linear-gradient(60deg, #3f221c, #75483f);
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.navbar__custom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "Barlow Condensed", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.navlink:hover {
+  color: white !important;
+}
+.navbar__redirect {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__logout {
+  margin-right: 2.4rem;
+}
+
+.navbar__logout,
+.navbar__account {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navbar__logout:hover,
+.navbar__account:hover,
+.logo__icon:hover {
+  opacity: 0.8;
+}
+
+.logout__icon,
+.account__icon,.logo__icon {
+  font-size: 2rem;
+}
+
+.logo__icon{
+  margin-right: 10px;
+  color: #FFBF46;
+}
